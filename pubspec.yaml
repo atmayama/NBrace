@@ -1,0 +1,59 @@
+name: nbrace
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  video_player: ^0.10.4+1
+  url_launcher: ^5.2.7
+  share: ^0.6.3+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.3
+
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/Photos/
+    - assets/Photos/Intro/
+    - assets/Photos/TypesOfBraces/
+    - assets/Photos/Wires/
+    - assets/Video/HowToBrushTeeth/
+    - assets/Video/HowToBrushTeeth/Brushing.mp4
+    - assets/Video/HowToBrushTeeth/BrushingBraces.mp4
+    - assets/Video/Wires/
+    - assets/Video/
+    - assets/Profiles/
+  fonts:
+    - family : Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Raleway-light.ttf
+          weight: 300
+        - asset: assets/fonts/Raleway-Regular.ttf
+          weight: 500
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 300
